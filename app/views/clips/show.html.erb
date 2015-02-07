@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @clip.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @clip.url %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @clip.start %>
+</p>
+
+<p>
+  <strong>End:</strong>
+  <%= @clip.end %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @clip.position %>
+</p>
+
+<p>
+  <strong>Board:</strong>
+  <%= @clip.board_id %>
+</p>
+
+<%= link_to 'Edit', edit_clip_path(@clip) %> |
+<%= link_to 'Back', clips_path %>
