@@ -1,2 +1,2 @@
 # tubeboard
-Create Soundboards from Youtube Video
+Create Soundboards from Youtube Videos
