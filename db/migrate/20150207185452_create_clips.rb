@@ -5,8 +5,8 @@ class CreateClips < ActiveRecord::Migration
       t.string :url
       t.string :start
       t.string :end
-      t.int :position
-      t.int :board_id
+      t.integer :position
+      t.integer :board_id
 
       t.timestamps null: false
     end

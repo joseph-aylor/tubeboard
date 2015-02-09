@@ -19,6 +19,11 @@
     <%= f.label :password %><br>
     <%= f.text_field :password %>
   </div>
+  <div class="field">
+    <% @board.clips.all.each do |clip| %>
+      <%= render partial: "clips/show", locals: { clip: clip } %>
+    <% end %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
