@@ -17,6 +17,12 @@ class ClipsController < ApplicationController
     @clip = Clip.new
   end
 
+  def create_for
+    @clip = Clip.new
+    @board_id = params[:board_id]
+    render 'new'
+  end
+
   # GET /clips/1/edit
   def edit
   end

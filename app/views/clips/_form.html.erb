@@ -32,8 +32,7 @@
     <%= f.text_field :position %>
   </div>
   <div class="field">
-    <%= f.label :board_id %><br>
-    <%= f.text_field :board_id %>
+    <%= f.hidden_field :board_id, value: @board_id %>
   </div>
   <div class="actions">
     <%= f.submit %>
